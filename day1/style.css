@@ -1,10 +1,6 @@
 body{
 	background-color: skyblue;
-	/*display: flex;*/
 }
-#login{
-	background-color: whitesmoke;
-	align-items: center;
 }
 table{
 	border-width: 2px;
@@ -12,3 +8,13 @@ table{
 	cellpadding: 5px;
 	border-color: whitesmoke;
 }
+#container{
+	height: 50vh;
+	width: 50vh;
+	background-color: white;
+}
+/*.bgimage{
+	background-image: url('./images/image4.jpeg');
+	height: 630px;
+	width: 1300px;
+}*/
