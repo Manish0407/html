@@ -1,0 +1,14 @@
+body{
+	background-color: skyblue;
+	/*display: flex;*/
+}
+#login{
+	background-color: whitesmoke;
+	align-items: center;
+}
+table{
+	border-width: 2px;
+	cellspacing:5px;
+	cellpadding: 5px;
+	border-color: whitesmoke;
+}
