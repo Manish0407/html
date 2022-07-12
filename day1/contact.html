@@ -2,12 +2,12 @@
 <html>
  <head>
   <title>Contact Page</title>
-  <<meta charset="utf-8">
+  <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <link rel="stylesheet" type="text/css" href="style.css">
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.4.1/dist/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
  </head>
- <body>
+ <body class="background">
   <nav class="navbar navbar-expand-sm bg-dark navbar-dark container-12">
     <div class="container-fluid">
       <ul class="navbar-nav">
@@ -35,6 +35,31 @@
       </ul>
     </div>
   </nav>
-   <h2>this is Contact page..</h2>
+   <div class="container" style="width:30%">
+  <form action="action_page.rb" class="class_1">
+
+    <label for="fname">Full Name</label>
+    <input type="text" id="fname" name="fullname" placeholder="Your name..">
+
+    <label for="email">Email</label>
+    <input type="email" id="email" name="email" placeholder="Your email..">
+
+    <label for="country">Country</label>
+    <select id="country" name="country">
+      <option value="">Select Country</option>
+      <option value="australia">Australia</option>
+      <option value="canada">Canada</option>
+      <option value="usa">USA</option>
+      <option value="india">India</option>
+      <option value="russia">Russia</option>
+    </select>
+
+    <label for="subject">Subject</label>
+    <textarea id="subject" name="subject" placeholder="Write something.." style="height:50px"></textarea>
+
+    <input type="submit" value="Submit">
+
+  </form>
+</div>
  </body>
 </html>
