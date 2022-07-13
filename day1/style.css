@@ -1,3 +1,4 @@
+ /* background image for signin and signup page */
  .bg{
       background: url(./images/back.jpeg) no-repeat center center fixed; 
      -webkit-background-size: cover;
@@ -36,6 +37,7 @@
    #anker{
    	color: wheat;
    }
+   /* background image for home,about,service,contact and employee page */
    .background{
   		background: url(./images/back01.jpeg) no-repeat center center fixed; 
      	-webkit-background-size: cover;
@@ -49,6 +51,9 @@ table{
 	cellspacing:5px;
 	cellpadding: 5px;
 	border-color: whitesmoke;
+}
+#employee tr:hover{
+	background-color: black;
 }
 #container{
 	height: 50vh;
@@ -109,4 +114,28 @@ input[type=submit]:hover {
 }
 .cl_1{
   font-family: monospace;
+}
+img.cl_2{
+			border-radius: 50%;
+			margin-right: auto;
+			margin-left: auto;
+			display: block;
+			width: 40%;
+			opacity: 0.85;
+	    }
+a:link {
+  text-decoration: none;
+  color: wheat;
+}
+
+a:visited {
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+a:active {
+  text-decoration: underline;
 }
