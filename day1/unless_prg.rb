@@ -4,4 +4,3 @@ unless a>=2
 else
 	puts "a is greater then 2"
 end
-puts :Hello.object_id
